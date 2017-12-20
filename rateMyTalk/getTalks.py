@@ -29,7 +29,7 @@ def getMyTalks(event, context):
         FilterExpression=Attr('session_date').gte(lookup_val)
     )
     items = response['Items']
-    print items
+    print items 
 
 
     except ClientError as e:
